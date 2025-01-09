@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="landing_styles.css">
+    <title>Landing page</title>
+</head>
+<body>
+    <nav>
+        <div class="nav__logo"><a href="#">Travel.Io</a></div>
+        <ul class="nav__links">
+            <li class="link">Home</li>
+            <li class="link">Features</li>
+            <li class="link">About Us</li>
+            <li class="link">Contact Us</li>
+        </ul>
+        <div class="search__box">
+            <input type="text" placeholder="Search">
+            <i class="ri-search-line"></i>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="container__left">
+            <div class="content">
+                <h1>DISCOVERING<br />THE WORLD.</h1>
+                <p>Travel opens up a world of new experiences, allowing you to explore diverse cultures, landscapes, and people. Whether it's discovering hidden gems in a bustling city or relaxing in serene nature, each journey brings fresh perspectives and unforgettable memories. It’s an opportunity to break free from the routine, broaden your horizons, and create lasting connections with the world around you.
+                </p>
+                <div class="btns">
+                    <button class="read__more">Read More</button>
+                    <button class="our__blogs">Our Blogs</button>
+                </div>
+                <div class="chevrons">
+                    <span class="chev__left">
+                        <i class="ri-arrow-left-s-line"></i>
+                    </span>
+                    <span class="chev__right">
+                        <i class="ri-arrow-right-s-line"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="container__right">
+            <form>
+                <h4>Where you want to go?</h4>
+                <div class="form__group">
+                    <label for="destination">Destination</label>
+                    <input 
+                        type="text"
+                        name="destination"
+                        id="destination"
+                        placeholder="Enter destination"
+                    />
+                </div>
+                <div class="form__group">
+                    <label for="date">Date</label>
+                    <input 
+                        type="text"
+                        name="data"
+                        id="data"
+                        placeholder="dd/mm/yyyy"
+                    />
+                </div>
+                <button type="submit">Check travel package</button>
+            </form>
+        </div>
+        <div class="bottom_tracker">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</body>
+</html>
